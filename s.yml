@@ -1,0 +1,6 @@
+ProjectName:
+  Component: fun
+  Provider: alibaba
+  Properties:
+    Region: cn-shenzhen
+    Config: s
