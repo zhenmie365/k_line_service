@@ -12,7 +12,7 @@ init_db_con = False
 def initializer(context):
     global init_db_con
     try:
-        init_db_con = create_engine("mysql+pymysql://admin_berg:Black1000@rm-wz9uxu2x6pv2z85by.mysql.rds.aliyuncs.com:3306/stock_data")
+        init_db_con = create_engine("mysql+pymysql://lion_watch_admin:LionWatch2021@rm-bp1y26j8fi5a84hl0.mysql.rds.aliyuncs.com:3306/lion_watch_db")
         print(type(init_db_con))
     except Exception as e:
         logger.error(e)
